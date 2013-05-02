@@ -13,7 +13,7 @@
  */
 class oxutilsview_vtse extends oxutilsview_vtse_parent
 {
-	public function _fillCommonSmartyProperties($oSmarty)
+	protected function _fillCommonSmartyProperties($oSmarty)
 	{
 		parent::_fillCommonSmartyProperties($oSmarty);
 
