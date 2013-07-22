@@ -1,4 +1,4 @@
-vt Smarty Extension Demo (module for OXID eShop 4.7.x)
+vt Smarty Extension Demo  (module for OXID eShop 4.7.x)
 ------------
 shows you how to extend smarty with custom plugins (blocks, functions and modifierts) and keep the functions inside the module folder
 
@@ -21,4 +21,4 @@ without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
 
 You should have received a copy of the GNU General Public License along with this program; if not, see <http://www.gnu.org/licenses/>
 
-<img src="https://ma-be.info/piwik/piwik.php?idsite=2&amp;rec=1&mp;action_name=vt_smartyext" style="border:0" alt="" />
+<img src="https://ma-be.info/piwik/piwik.php?idsite=2&rec=1&action_name=vt-smartyext" style="border:0" alt="" />
