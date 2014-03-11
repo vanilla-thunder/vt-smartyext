@@ -20,7 +20,7 @@ class oxutilsview_vtse extends oxutilsview_vtse_parent
 		$cfg = oxRegistry::getConfig();
 
 		$aPluginsDir = $oSmarty->plugins_dir;
-		$aPluginsDir[] = $cfg->getModulesDir()."/vt-smartyext/smarty/";
+		array_unshift($aPluginsDir, $cfg->getModulesDir()."/vt-smartyext/smarty/");
 
 		$oSmarty->plugins_dir = $aPluginsDir;
 	}
