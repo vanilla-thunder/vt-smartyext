@@ -1,0 +1,15 @@
+{
+    "name": "vt/smartyext",
+    "description": "Demo: extending smarty with custom plugins",
+    "type": "oxid-module",
+    "license": "GPL-v3",
+    "authors": [
+        {
+            "name": "Marat Bedoev",
+            "email": "oxid@marat-bedoev.net"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
