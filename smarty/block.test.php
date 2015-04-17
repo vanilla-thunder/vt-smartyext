@@ -14,7 +14,7 @@
 function smarty_block_test($params, $content, &$smarty, &$repeat)
 {
 
-	if (isset($content)) {
-		return "<h1 style='color:red;font-size: 150%;'>".$content."</h1>";
-	}
+    if (isset($content)) {
+        return "<h1 style='color:red;font-size: 150%;'>" . $content . "</h1>";
+    }
 }
