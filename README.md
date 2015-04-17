@@ -4,7 +4,14 @@ shows you how to extend smarty with custom plugins (blocks, functions and modifi
 
 Installation:
 ------------
-put the vt-devutils folder into the modules directory in your shop.
+
+with composer:
+-------------
+adding "vt/smartyext" to "require"
+
+manuelly:
+---------
+create vt-devutils folder and put code in it. Then move it into the modules directory in your shop.
 You will find the code snippet in the module description in OXID backend
 
 
