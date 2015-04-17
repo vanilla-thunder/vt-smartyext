@@ -13,15 +13,15 @@
  */
 class oxutilsview_vtse extends oxutilsview_vtse_parent
 {
-	protected function _fillCommonSmartyProperties($oSmarty)
-	{
-		parent::_fillCommonSmartyProperties($oSmarty);
+    /**
+     * put smarty plugins at the beginning
+     *
+     * @param mixed $oSmarty smarty object
+     */
+    protected function _fillCommonSmartyProperties($oSmarty)
+    {
+        parent::_fillCommonSmartyProperties($oSmarty);
 
-		$cfg = oxRegistry::getConfig();
-
-		$aPluginsDir = $oSmarty->plugins_dir;
-		array_unshift($aPluginsDir, $cfg->getModulesDir()."/vt-smartyext/smarty/");
-
-		$oSmarty->plugins_dir = $aPluginsDir;
-	}
+        array_unshift($oSmarty->plugins_dir, oxRegistry::getConfig()->getModulesDir() . "/smartyext/smarty/");
+    }
 }
